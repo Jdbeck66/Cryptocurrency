@@ -64,12 +64,12 @@ Cryptocurrency/
 | 01 | historical-evolution.md | Complete |
 | 02 | bitcoin-deep-dive.md | Complete |
 | 03 | ethereum-smart-contracts.md | Complete |
-| 04 | blockchain-economics.md | Not started |
-| 05 | platform-comparison.md | Not started |
-| 06 | privacy-technologies.md | Not started |
-| 07 | stablecoins.md | Not started |
-| 08 | dao-governance.md | Not started |
-| 09 | sustainability.md | Not started |
+| 04 | blockchain-economics.md | Complete |
+| 05 | platform-comparison.md | Complete |
+| 06 | privacy-technologies.md | Complete |
+| 07 | stablecoins.md | Complete |
+| 08 | dao-governance.md | Complete |
+| 09 | sustainability.md | Complete |
 
 ### Notebooks (computational)
 | # | File | Status |
