@@ -397,7 +397,7 @@ GovernorCore
 
 This modular design allows DAOs to mix and match governance components. A DAO might use `GovernorVotes` with an ERC-20 token, set quorum at 4% using `GovernorVotesQuorumFraction`, and add a 48-hour timelock using `GovernorTimelockControl`.
 
-> **Notebook Reference:** See `notebooks/03-smart-contracts.ipynb` for examples of deploying and interacting with governance contracts, including Governor and Timelock implementations.
+> **Notebook Reference:** See `notebooks/04-smart-contract-development.ipynb` (upcoming) for examples of deploying and interacting with governance contracts, including Governor and Timelock implementations.
 
 **Source:** OpenZeppelin. (2023). OpenZeppelin Governor Documentation. https://docs.openzeppelin.com/contracts/5.x/governance
 
@@ -1118,9 +1118,9 @@ The emergence of meta-governance raises questions about governance power concent
 
 The following notebooks provide hands-on implementations of concepts covered in this section:
 
-- **`notebooks/03-smart-contracts.ipynb`** — Deploy and interact with Governor contracts and Timelock controllers. Implement a complete governance lifecycle: create proposals, cast votes, queue execution, and execute approved proposals on a local testnet. Explore how vote delegation works at the smart contract level and experiment with different quorum and threshold configurations.
+- **`notebooks/04-smart-contract-development.ipynb`** (upcoming) — Deploy and interact with Governor contracts and Timelock controllers. Implement a complete governance lifecycle: create proposals, cast votes, queue execution, and execute approved proposals on a local testnet. Explore how vote delegation works at the smart contract level and experiment with different quorum and threshold configurations.
 
-- **`notebooks/09-dao-governance.ipynb`** (upcoming) — Simulate and analyze DAO governance mechanisms:
+- **`notebooks/12-governance-simulation.ipynb`** (upcoming) — Simulate and analyze DAO governance mechanisms:
   - **Quadratic voting simulator:** Implement the quadratic voting formula and compare outcomes against token-weighted voting for a set of proposals. Visualize how different token distributions affect governance outcomes under each mechanism.
   - **Conviction voting model:** Build a conviction voting simulator that models how conviction accumulates over time and how the trigger threshold varies with the size of the funding request. Explore the effects of the decay parameter (alpha) on governance dynamics.
   - **Voter power analysis:** Fetch on-chain governance data from Compound or Uniswap using The Graph or direct RPC (Remote Procedure Call) queries. Calculate the Gini coefficient of voting power distribution, identify the number of addresses needed to reach quorum, and visualize delegation networks.

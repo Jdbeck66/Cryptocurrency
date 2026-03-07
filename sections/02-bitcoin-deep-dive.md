@@ -403,7 +403,7 @@ Solo mining has become impractical for all but the largest operations. Even with
 **Mining pool centralization concerns:**
 While individual miners retain the ability to switch pools, the concentration of hash power in large pools has raised centralization concerns. If a single pool controlled more than 50% of the hash rate, it could theoretically execute a 51% attack. In practice, miners have historically migrated away from pools approaching this threshold.
 
-> **Notebook Reference:** See `notebooks/06-mining-economics.ipynb` (upcoming) for mining profitability calculations, difficulty simulations, and pool reward modeling.
+> **Notebook Reference:** See `notebooks/07-mining-economics.ipynb` (upcoming) for mining profitability calculations, difficulty simulations, and pool reward modeling.
 
 ### 2.4.5 The Coinbase Transaction
 
@@ -478,7 +478,7 @@ The S2F model has generated significant debate. Proponents argue it demonstrates
 
 **Source:** PlanB. (2019). Modeling Bitcoin Value with Scarcity. https://medium.com/@100trillionUSD/modeling-bitcoins-value-with-scarcity-91fa0fc03e25
 
-> **Notebook Reference:** See `notebooks/07-valuation-models.ipynb` (upcoming) for S2F model implementation, Metcalfe's Law, and other Bitcoin valuation frameworks.
+> **Notebook Reference:** See `notebooks/08-valuation-models.ipynb` (upcoming) for S2F model implementation, Metcalfe's Law, and other Bitcoin valuation frameworks.
 
 ### 2.5.3 Transaction Fee Market
 
@@ -779,6 +779,6 @@ The following notebooks provide hands-on implementations of concepts covered in 
 
 - **`notebooks/02-bitcoin-blockchain-analysis.ipynb`** (upcoming) — Connect to Bitcoin nodes, parse blocks and transactions, analyze the UTXO set, monitor the mempool, and calculate network health metrics.
 
-- **`notebooks/06-mining-economics.ipynb`** (upcoming) — Mining profitability calculations, difficulty adjustment simulations, pool reward modeling, and 51% attack cost estimation.
+- **`notebooks/07-mining-economics.ipynb`** (upcoming) — Mining profitability calculations, difficulty adjustment simulations, pool reward modeling, and 51% attack cost estimation.
 
-- **`notebooks/07-valuation-models.ipynb`** (upcoming) — Stock-to-Flow implementation, Metcalfe's Law, NVT ratio, and Monte Carlo price simulations.
+- **`notebooks/08-valuation-models.ipynb`** (upcoming) — Stock-to-Flow implementation, Metcalfe's Law, NVT ratio, and Monte Carlo price simulations.

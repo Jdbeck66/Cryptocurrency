@@ -276,7 +276,7 @@ New Difficulty = Old Difficulty * (2 weeks / Actual Time for Last 2016 Blocks)
 
 This creates a negative feedback loop: if more miners join (increasing hash rate), difficulty increases, reducing per-miner revenue, causing less efficient miners to exit, which reduces hash rate, which reduces difficulty, and so on. The system tends toward an equilibrium where marginal miners operate near break-even.
 
-> **Notebook Reference:** See `notebooks/06-mining-economics.ipynb` for interactive mining profitability calculations, difficulty adjustment simulations, and break-even analysis.
+> **Notebook Reference:** See `notebooks/07-mining-economics.ipynb` (upcoming) for interactive mining profitability calculations, difficulty adjustment simulations, and break-even analysis.
 
 ### 4.3.2 Proof-of-Stake Incentive Analysis
 
@@ -399,7 +399,7 @@ The real yield (after accounting for inflation from new ETH issuance) is lower t
 
 **Key consideration:** The opportunity cost of locking 32 ETH must be weighed against alternative uses of that capital. Liquid staking derivatives (discussed in Section 4.7) partially address this by making staked ETH usable in Decentralized Finance (DeFi).
 
-> **Notebook Reference:** See `notebooks/09-staking-economics.ipynb` for staking yield calculations, validator break-even modeling, and comparisons across Proof-of-Stake networks.
+> **Notebook Reference:** See `notebooks/10-cryptoeconomic-modeling.ipynb` (upcoming) for staking yield calculations, validator break-even modeling, and comparisons across Proof-of-Stake networks.
 
 ---
 
@@ -677,7 +677,7 @@ Public Sale/Airdrop:           5% █████
 
 **Price impact of unlocks:** Large unlock events often create selling pressure. Empirical studies show that token prices tend to decline 5-15% in the weeks surrounding major unlock events, as insiders take profits. Sophisticated traders front-run these events by shorting before the unlock date.
 
-> **Notebook Reference:** See `notebooks/05-market-analysis.ipynb` for token unlock schedule analysis and their empirical price impact.
+> **Notebook Reference:** See `notebooks/06-market-analysis.ipynb` (upcoming) for token unlock schedule analysis and their empirical price impact.
 
 ---
 
@@ -791,7 +791,7 @@ Binance burns BNB tokens quarterly using a formula based on BNB price and the nu
 
 When users repay DAI loans, the stability fee (interest) is used to buy MKR on the open market and burn it. Higher protocol revenue leads to more MKR being burned, reducing supply and creating a direct link between protocol usage and token value.
 
-> **Notebook Reference:** See `notebooks/07-valuation-models.ipynb` for token velocity calculations, MV=PQ modeling, and fee burn analysis for major protocols.
+> **Notebook Reference:** See `notebooks/08-valuation-models.ipynb` (upcoming) for token velocity calculations, MV=PQ modeling, and fee burn analysis for major protocols.
 
 ---
 
@@ -933,7 +933,7 @@ Restaker's Total Risk  = Base Slashing Risk + SUM(AVS_i Slashing Risk)
 | **Liquid Staking** | Lido, Rocket Pool | Marinade, Jito | Stride | Bifrost | Indigo |
 | **Delegation** | Liquid staking only | Native | Native | Nomination pools | Native |
 
-> **Notebook Reference:** See `notebooks/09-staking-economics.ipynb` for interactive staking yield calculations, real yield modeling, and cross-network comparisons.
+> **Notebook Reference:** See `notebooks/10-cryptoeconomic-modeling.ipynb` (upcoming) for interactive staking yield calculations, real yield modeling, and cross-network comparisons.
 
 ---
 
@@ -1151,7 +1151,7 @@ Cryptocurrency valuation remains one of the most challenging problems in financi
 6. **Multi-purpose tokens:** Tokens like ETH serve as gas, staking collateral, DeFi collateral, and store of value — each use case implies a different valuation framework, and they interact in complex ways
 7. **Narrative-driven markets:** Crypto valuations are heavily influenced by narratives (digital gold, ultrasound money, global computer) that can shift rapidly
 
-> **Notebook Reference:** See `notebooks/07-valuation-models.ipynb` for NVT calculations, MVRV analysis, Stock-to-Flow modeling, Metcalfe's Law regression, and DCF-like protocol valuation.
+> **Notebook Reference:** See `notebooks/08-valuation-models.ipynb` (upcoming) for NVT calculations, MVRV analysis, Stock-to-Flow modeling, Metcalfe's Law regression, and DCF-like protocol valuation.
 
 ---
 
@@ -1338,7 +1338,7 @@ Stablecoins are the backbone of crypto market infrastructure:
 
 **The trend toward DEX adoption:** DEX market share has grown from less than 1% of spot volume in 2019 to approximately 10-15% by 2025. Key drivers include the FTX collapse (eroding trust in CEXs), improvements in DEX user experience, and the proliferation of tokens that are only available on DEXs. However, CEXs still dominate for institutional trading, fiat on-ramps, and derivatives.
 
-> **Notebook Reference:** See `notebooks/10-amm-mechanics.ipynb` for constant product formula simulations, impermanent loss calculations, and AMM vs order book comparison exercises.
+> **Notebook Reference:** See `notebooks/05-defi-protocols.ipynb` (upcoming) for constant product formula simulations, impermanent loss calculations, and AMM vs order book comparison exercises.
 
 ---
 
@@ -1402,12 +1402,12 @@ Stablecoins are the backbone of crypto market infrastructure:
 
 The following notebooks provide hands-on implementations of concepts covered in this section:
 
-- **`notebooks/05-market-analysis.ipynb`** — Fetch cryptocurrency market data, compute on-chain metrics (NVT, MVRV, active addresses), analyze token unlock schedules and their price impact, and build valuation dashboards using real data.
+- **`notebooks/05-defi-protocols.ipynb`** (upcoming) — Implement the constant product formula (x*y=k), simulate trades and measure slippage, calculate impermanent loss across different price trajectories, compare concentrated vs. full-range liquidity, and model AMM fee revenue for liquidity providers.
 
-- **`notebooks/06-mining-economics.ipynb`** — Mining profitability calculations, difficulty adjustment simulations, break-even analysis under varying electricity costs and BTC prices, selfish mining strategy modeling, and pool reward distribution comparisons.
+- **`notebooks/06-market-analysis.ipynb`** (upcoming) — Fetch cryptocurrency market data, compute on-chain metrics (NVT, MVRV, active addresses), analyze token unlock schedules and their price impact, and build valuation dashboards using real data.
 
-- **`notebooks/07-valuation-models.ipynb`** — Implement Stock-to-Flow regression, Metcalfe's Law valuation, NVT ratio time series, MVRV ratio analysis, and DCF-like models for fee-generating protocols. Compare frameworks and evaluate their predictive power.
+- **`notebooks/07-mining-economics.ipynb`** (upcoming) — Mining profitability calculations, difficulty adjustment simulations, break-even analysis under varying electricity costs and BTC prices, selfish mining strategy modeling, and pool reward distribution comparisons.
 
-- **`notebooks/09-staking-economics.ipynb`** — Calculate nominal and real staking yields across major PoS networks, model validator break-even economics, simulate staking ratio dynamics, analyze liquid staking derivative mechanics, and compare risk-adjusted returns.
+- **`notebooks/08-valuation-models.ipynb`** (upcoming) — Implement Stock-to-Flow regression, Metcalfe's Law valuation, NVT ratio time series, MVRV ratio analysis, and DCF-like models for fee-generating protocols. Compare frameworks and evaluate their predictive power.
 
-- **`notebooks/10-amm-mechanics.ipynb`** — Implement the constant product formula (x*y=k), simulate trades and measure slippage, calculate impermanent loss across different price trajectories, compare concentrated vs. full-range liquidity, and model AMM fee revenue for liquidity providers.
+- **`notebooks/10-cryptoeconomic-modeling.ipynb`** (upcoming) — Calculate nominal and real staking yields across major PoS networks, model validator break-even economics, simulate staking ratio dynamics, analyze liquid staking derivative mechanics, and compare risk-adjusted returns.

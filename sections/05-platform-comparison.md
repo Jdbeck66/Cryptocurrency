@@ -1045,7 +1045,7 @@ The Inter-Blockchain Communication (IBC) protocol, covered in Section 5.3.6, rep
 | Cardano | ~0.60-0.70 | Moderate inequality (better distribution) |
 | Cosmos Hub | ~0.75-0.85 | Moderate-high inequality |
 
-> **Notebook Reference:** See `notebooks/11-consensus-mechanism-simulation.ipynb` (upcoming) for implementations of Nakamoto coefficient calculation, Gini coefficient analysis, and Monte Carlo simulations of consensus protocols under adversarial conditions.
+> **Notebook Reference:** See `notebooks/14-consensus-simulations.ipynb` (upcoming) for implementations of Nakamoto coefficient calculation, Gini coefficient analysis, and Monte Carlo simulations of consensus protocols under adversarial conditions.
 
 ### 5.7.5 Minimum Hardware Requirements as Accessibility Metric
 
@@ -1128,9 +1128,9 @@ The hardware required to run a full validator node is a practical measure of dec
 
 The following notebooks provide hands-on implementations of concepts covered in this section:
 
-- **`notebooks/11-consensus-mechanism-simulation.ipynb`** (upcoming) — Simulate Proof-of-Work mining, Proof-of-Stake validator selection, and BFT consensus rounds. Model the Nakamoto coefficient and Gini coefficient for real-world validator distributions. Explore how different consensus parameters affect finality time, throughput, and decentralization.
+- **`notebooks/14-consensus-simulations.ipynb`** (upcoming) — Simulate Proof-of-Work mining, Proof-of-Stake validator selection, and BFT consensus rounds. Model the Nakamoto coefficient and Gini coefficient for real-world validator distributions. Explore how different consensus parameters affect finality time, throughput, and decentralization.
 
-- **`notebooks/12-platform-performance-analysis.ipynb`** (upcoming) — Fetch and analyze real-world blockchain performance data across multiple platforms. Compare actual TPS, block times, transaction fees, and gas usage. Build interactive dashboards for cross-chain metric comparison. Model the blockchain trilemma quantitatively by plotting platforms in the decentralization-security-scalability space.
+- **`notebooks/15-multichain-analysis.ipynb`** (upcoming) — Fetch and analyze real-world blockchain performance data across multiple platforms. Compare actual TPS, block times, transaction fees, and gas usage. Build interactive dashboards for cross-chain metric comparison. Model the blockchain trilemma quantitatively by plotting platforms in the decentralization-security-scalability space.
 
 **Suggested exercises:**
 

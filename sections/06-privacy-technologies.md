@@ -989,7 +989,7 @@ The regulatory landscape for privacy in cryptocurrency is evolving rapidly:
 
 The following notebook provides hands-on implementations of privacy concepts covered in this section:
 
-- **`notebooks/08-privacy-technologies.ipynb`** (upcoming) — Implement and explore privacy-enhancing techniques:
+- **`notebooks/09-privacy-forensics.ipynb`** (upcoming) — Implement and explore privacy-enhancing techniques:
 
   1. **Address clustering simulation:** Implement the common input ownership heuristic and change address detection on a simulated set of Bitcoin transactions. Visualize address clusters as a graph.
 
@@ -1005,4 +1005,4 @@ The following notebook provides hands-on implementations of privacy concepts cov
 
   7. **Privacy set analysis:** Given a simulated Zcash-like system with transparent and shielded pools, analyze how the fraction of shielded transactions affects the anonymity set size. Model the effect of opt-in vs mandatory privacy on overall system privacy.
 
-> **Notebook Reference:** See `notebooks/08-privacy-technologies.ipynb` for implementations of zero-knowledge proofs, Pedersen commitments, ring signatures, and blockchain analysis simulations.
+> **Notebook Reference:** See `notebooks/09-privacy-forensics.ipynb` (upcoming) for implementations of zero-knowledge proofs, Pedersen commitments, ring signatures, and blockchain analysis simulations.

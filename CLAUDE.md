@@ -76,14 +76,17 @@ Cryptocurrency/
 |---|------|--------|
 | 01 | cryptographic-primitives.ipynb | Complete |
 | 02 | bitcoin-blockchain-analysis.ipynb | Not started |
-| 03 | smart-contracts.ipynb | Not started |
-| 04 | defi-protocols.ipynb | Not started |
-| 05 | market-analysis.ipynb | Not started |
-| 06 | mining-economics.ipynb | Not started |
-| 07 | valuation-models.ipynb | Not started |
-| 08 | privacy-forensics.ipynb | Not started |
-| 09 | cryptoeconomic-modeling.ipynb | Not started |
-| 10 | tokenomics.ipynb | Not started |
-| 11 | consensus-simulations.ipynb | Not started |
-| 12 | multichain-analysis.ipynb | Not started |
-| 13 | energy-sustainability.ipynb | Not started |
+| 03 | ethereum-evm-analysis.ipynb | Not started |
+| 04 | smart-contract-development.ipynb | Not started |
+| 05 | defi-protocols.ipynb | Not started |
+| 06 | market-analysis.ipynb | Not started |
+| 07 | mining-economics.ipynb | Not started |
+| 08 | valuation-models.ipynb | Not started |
+| 09 | privacy-forensics.ipynb | Not started |
+| 10 | cryptoeconomic-modeling.ipynb | Not started |
+| 11 | tokenomics.ipynb | Not started |
+| 12 | governance-simulation.ipynb | Not started |
+| 13 | stablecoin-analysis.ipynb | Not started |
+| 14 | consensus-simulations.ipynb | Not started |
+| 15 | multichain-analysis.ipynb | Not started |
+| 16 | energy-sustainability.ipynb | Not started |

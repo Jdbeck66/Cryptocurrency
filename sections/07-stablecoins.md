@@ -350,7 +350,7 @@ Liquity's design trades governance flexibility for immutability and censorship r
 - Returned to Bob: $44,000 - $33,900 = **$10,100 in WBTC (~0.23 WBTC)**
 - Bob's loss relative to simply holding: He kept 30,000 DAI + received ~$10,100 = ~$40,100 total versus $44,000 from holding. Net loss from the vault: **~$3,900** (the liquidation penalty).
 
-> **Notebook Reference:** See `notebooks/04-defi-protocols.ipynb` for interactive vault simulations, liquidation modeling, and collateralization ratio analysis.
+> **Notebook Reference:** See `notebooks/05-defi-protocols.ipynb` (upcoming) for interactive vault simulations, liquidation modeling, and collateralization ratio analysis.
 
 ---
 
@@ -1011,6 +1011,6 @@ The most likely outcome, at least in the medium term, is coexistence with differ
 
 The following notebooks provide hands-on implementations of concepts covered in this section:
 
-- **`notebooks/04-defi-protocols.ipynb`** — Simulate MakerDAO vault operations, including collateral deposit, DAI minting, stability fee accrual, and liquidation mechanics. Model the relationship between collateralization ratios, liquidation thresholds, and user outcomes under various market scenarios. Implement a vault management simulator that tracks portfolio value through historical ETH price data and identifies when liquidations would trigger.
+- **`notebooks/05-defi-protocols.ipynb`** (upcoming) — Simulate MakerDAO vault operations, including collateral deposit, DAI minting, stability fee accrual, and liquidation mechanics. Model the relationship between collateralization ratios, liquidation thresholds, and user outcomes under various market scenarios. Implement a vault management simulator that tracks portfolio value through historical ETH price data and identifies when liquidations would trigger.
 
-- **`notebooks/10-stablecoin-analysis.ipynb`** (upcoming) — Analyze stablecoin peg stability using historical price data. Build a peg deviation tracker across USDT, USDC, and DAI that measures maximum depeg events, time-to-recovery, and correlation with market stress. Simulate the Terra/UST death spiral mechanics using a simplified mint/burn model to demonstrate how reflexivity amplifies depegging. Implement a stablecoin reserve adequacy framework that evaluates collateral quality, liquidity, and redemption capacity. Compare fiat-collateralized, crypto-collateralized, and algorithmic stablecoin designs across risk metrics including Sharpe ratio of peg maintenance, maximum drawdown, and recovery time.
+- **`notebooks/13-stablecoin-analysis.ipynb`** (upcoming) — Analyze stablecoin peg stability using historical price data. Build a peg deviation tracker across USDT, USDC, and DAI that measures maximum depeg events, time-to-recovery, and correlation with market stress. Simulate the Terra/UST death spiral mechanics using a simplified mint/burn model to demonstrate how reflexivity amplifies depegging. Implement a stablecoin reserve adequacy framework that evaluates collateral quality, liquidity, and redemption capacity. Compare fiat-collateralized, crypto-collateralized, and algorithmic stablecoin designs across risk metrics including Sharpe ratio of peg maintenance, maximum drawdown, and recovery time.

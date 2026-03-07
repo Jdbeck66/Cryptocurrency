@@ -110,17 +110,20 @@ Examine the environmental impact of blockchain systems.
 |---|----------|-------------|
 | 01 | `cryptographic-primitives` | Hash functions, ECDSA key pairs, digital signatures, Merkle trees, proof-of-work |
 | 02 | `bitcoin-blockchain-analysis` | Node connections, block/transaction parsing, UTXO analysis, network metrics |
-| 03 | `smart-contracts` | ERC-20/721 contracts, Solidity, Web3.py, security analysis, gas optimization |
-| 04 | `defi-protocols` | AMM simulators, lending mechanics, liquidation, impermanent loss, flash loans |
-| 05 | `market-analysis` | Price data APIs, technical indicators, on-chain metrics, portfolio optimization |
-| 06 | `mining-economics` | Profitability calculator, difficulty simulation, pool rewards, 51% attack costs |
-| 07 | `valuation-models` | Stock-to-Flow, Metcalfe's Law, NVT ratio, Monte Carlo simulations |
-| 08 | `privacy-forensics` | Address clustering, transaction graphs, mixing detection, taint analysis |
-| 09 | `cryptoeconomic-modeling` | Game theory, Nash equilibrium, mechanism design, agent-based simulations |
-| 10 | `tokenomics` | Supply curves, inflation/deflation, vesting schedules, bonding curves |
-| 11 | `consensus-simulations` | PoW/PoS simulators, PBFT, fork choice rules, finality analysis |
-| 12 | `multichain-analysis` | Throughput benchmarks, cost analysis, decentralization metrics |
-| 13 | `energy-sustainability` | Energy consumption estimation, carbon footprint, PoW vs. PoS comparison |
+| 03 | `ethereum-evm-analysis` | Web3.py node interaction, EVM bytecode/opcode decoding, gas analysis, EIP-1559 simulation |
+| 04 | `smart-contract-development` | Solidity ERC-20/721, deployment to testnet, security analysis, Governor contracts |
+| 05 | `defi-protocols` | AMM simulators, lending mechanics, liquidation, impermanent loss, flash loans |
+| 06 | `market-analysis` | Price data APIs, technical indicators, on-chain metrics, portfolio optimization |
+| 07 | `mining-economics` | Profitability calculator, difficulty simulation, pool rewards, 51% attack costs |
+| 08 | `valuation-models` | Stock-to-Flow, Metcalfe's Law, NVT ratio, Monte Carlo simulations |
+| 09 | `privacy-forensics` | Address clustering, transaction graphs, ZKP basics, mixing detection, taint analysis |
+| 10 | `cryptoeconomic-modeling` | Game theory, Nash equilibrium, mechanism design, staking economics, validator yields |
+| 11 | `tokenomics` | Supply curves, inflation/deflation, vesting schedules, bonding curves |
+| 12 | `governance-simulation` | Quadratic voting, conviction voting, governance attacks, treasury analysis |
+| 13 | `stablecoin-analysis` | Peg stability tracking, Terra/UST death spiral simulation, reserve modeling |
+| 14 | `consensus-simulations` | PoW/PoS simulators, PBFT, fork choice rules, finality analysis |
+| 15 | `multichain-analysis` | Throughput benchmarks, cost analysis, decentralization metrics |
+| 16 | `energy-sustainability` | Energy consumption estimation, carbon footprint, PoW vs. PoS comparison |
 
 ---
 
@@ -181,18 +184,18 @@ python -m ipykernel install --user --name blockchain-module1 --display-name "Pyt
 | Weeks | Sections | Notebooks |
 |-------|----------|-----------|
 | 1-2 | 01: Historical Evolution | 01: Cryptographic Primitives |
-| 3-4 | 02: Bitcoin Deep Dive | 02, 06, 07: Bitcoin Analysis, Mining, Valuation |
-| 5-6 | 03: Ethereum & Smart Contracts | 03, 04: Smart Contracts, DeFi |
-| 7-8 | 04: Blockchain Economics | 05, 09, 10: Market Analysis, Cryptoeconomics, Tokenomics |
-| 9-10 | 05: Platforms, 06: Privacy | 08, 11, 12: Privacy, Consensus, Multi-Chain |
-| 11-12 | 07: Stablecoins, 08: DAOs, 09: Sustainability | 13: Energy & Sustainability |
+| 3-4 | 02: Bitcoin Deep Dive | 02, 07, 08: Bitcoin Analysis, Mining, Valuation |
+| 5-6 | 03: Ethereum & Smart Contracts | 03, 04, 05: EVM, Smart Contracts, DeFi |
+| 7-8 | 04: Blockchain Economics | 06, 10, 11: Market Analysis, Cryptoeconomics, Tokenomics |
+| 9-10 | 05: Platforms, 06: Privacy | 09, 14, 15: Privacy, Consensus, Multi-Chain |
+| 11-12 | 07: Stablecoins, 08: DAOs, 09: Sustainability | 12, 13, 16: Governance, Stablecoins, Energy |
 
 ### Alternative Paths
 
-- **Fast Track (6 weeks):** Sections 1-4 + Notebooks 01-05
-- **DeFi Focused:** Sections 01, 03, 04, 07 + Notebooks 03, 04, 05, 10
-- **Technical Deep Dive:** Sections 02, 03, 05, 06 + Notebooks 01, 02, 03, 08, 11
-- **Economics Focused:** Sections 01, 04, 07, 09 + Notebooks 05, 06, 07, 09, 10, 13
+- **Fast Track (6 weeks):** Sections 1-4 + Notebooks 01-06
+- **DeFi Focused:** Sections 01, 03, 04, 07 + Notebooks 04, 05, 06, 11, 13
+- **Technical Deep Dive:** Sections 02, 03, 05, 06 + Notebooks 01, 02, 03, 09, 14
+- **Economics Focused:** Sections 01, 04, 07, 09 + Notebooks 06, 07, 08, 10, 11, 16
 
 ---
 

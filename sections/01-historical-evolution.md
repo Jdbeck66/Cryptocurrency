@@ -559,7 +559,7 @@ Chainlink, launched in 2017, became the dominant oracle network, providing price
 
 **Source:** Adams, H. (2018). Uniswap Whitepaper. https://hackmd.io/@HaydenAdams/HJ9jLsfTz
 
-> **Notebook Reference:** See `notebooks/04-defi-protocols.ipynb` for implementations of AMM formulas, lending mechanics, impermanent loss calculations, and flash loan simulations.
+> **Notebook Reference:** See `notebooks/05-defi-protocols.ipynb` (upcoming) for implementations of AMM formulas, lending mechanics, impermanent loss calculations, and flash loan simulations.
 
 ### 1.5.3 DeFi Summer (2020)
 
@@ -804,8 +804,8 @@ The following notebooks provide hands-on implementations of concepts covered in 
 
 - **`notebooks/02-bitcoin-blockchain-analysis.ipynb`** (upcoming) — Connect to Bitcoin nodes, parse blocks and transactions, analyze the UTXO set, and calculate network metrics using real blockchain data.
 
-- **`notebooks/03-smart-contracts.ipynb`** (upcoming) — Write and deploy ERC-20 and ERC-721 smart contracts, interact with Ethereum using Web3.py, and analyze contract security.
+- **`notebooks/04-smart-contract-development.ipynb`** (upcoming) — Write and deploy ERC-20 and ERC-721 smart contracts, interact with Ethereum using Web3.py, and analyze contract security.
 
-- **`notebooks/04-defi-protocols.ipynb`** (upcoming) — Implement AMM formulas, simulate lending protocols, calculate impermanent loss, and model flash loan strategies.
+- **`notebooks/05-defi-protocols.ipynb`** (upcoming) — Implement AMM formulas, simulate lending protocols, calculate impermanent loss, and model flash loan strategies.
 
-- **`notebooks/05-market-analysis.ipynb`** (upcoming) — Fetch cryptocurrency market data, compute technical indicators and on-chain metrics, and build analysis dashboards.
+- **`notebooks/06-market-analysis.ipynb`** (upcoming) — Fetch cryptocurrency market data, compute technical indicators and on-chain metrics, and build analysis dashboards.

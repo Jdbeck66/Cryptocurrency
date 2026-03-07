@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mamba env:*)",
+      "Bash(conda run:*)",
+      "Bash(wc:*)"
+    ]
+  }
+}
