@@ -63,7 +63,7 @@ Cryptocurrency/
 |---|------|--------|
 | 01 | historical-evolution.md | Complete |
 | 02 | bitcoin-deep-dive.md | Complete |
-| 03 | ethereum-smart-contracts.md | Not started |
+| 03 | ethereum-smart-contracts.md | Complete |
 | 04 | blockchain-economics.md | Not started |
 | 05 | platform-comparison.md | Not started |
 | 06 | privacy-technologies.md | Not started |
