@@ -75,15 +75,15 @@ Cryptocurrency/
 | # | File | Status |
 |---|------|--------|
 | 01 | cryptographic-primitives.ipynb | Complete |
-| 02 | bitcoin-blockchain-analysis.ipynb | Not started |
-| 03 | ethereum-evm-analysis.ipynb | Not started |
+| 02 | bitcoin-blockchain-analysis.ipynb | Complete |
+| 03 | ethereum-evm-analysis.ipynb | Complete |
 | 04 | smart-contract-development.ipynb | Not started |
 | 05 | defi-protocols.ipynb | Not started |
-| 06 | market-analysis.ipynb | Not started |
-| 07 | mining-economics.ipynb | Not started |
+| 06 | market-analysis.ipynb | Complete |
+| 07 | mining-economics.ipynb | Complete |
 | 08 | valuation-models.ipynb | Not started |
-| 09 | privacy-forensics.ipynb | Not started |
-| 10 | cryptoeconomic-modeling.ipynb | Not started |
+| 09 | privacy-forensics.ipynb | Complete |
+| 10 | cryptoeconomic-modeling.ipynb | Complete |
 | 11 | tokenomics.ipynb | Not started |
 | 12 | governance-simulation.ipynb | Not started |
 | 13 | stablecoin-analysis.ipynb | Not started |
