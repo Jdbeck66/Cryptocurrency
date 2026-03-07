@@ -1,0 +1,57 @@
+name: blockchain-module1
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python version
+  - python=3.11
+  
+  # Core scientific computing
+  - numpy>=1.24.0
+  - pandas>=2.0.0
+  - scipy>=1.10.0
+  
+  # Data visualization
+  - matplotlib>=3.7.0
+  - seaborn>=0.12.0
+  - plotly>=5.14.0
+  
+  # Jupyter and extensions
+  - jupyterlab>=4.0.0
+  - ipywidgets>=8.0.0
+  
+  # Networking and APIs
+  - requests>=2.31.0
+  
+  # Pip packages
+  - pip
+  - pip:
+      # Bitcoin and blockchain
+      - python-bitcoinlib>=0.12.0
+      - bit>=0.8.0
+      
+      # Ethereum
+      - web3>=6.11.0
+      - eth-utils>=2.3.0
+      - eth-account>=0.9.0
+      - py-solc-x>=2.0.0
+      
+      # Cryptography
+      - cryptography>=41.0.0
+      - ecdsa>=0.18.0
+      - pycryptodome>=3.19.0
+      
+      # Utilities
+      - python-dotenv>=1.0.0
+      - tqdm>=4.66.0
+      - base58>=2.1.0
+      
+      # APIs and data
+      - ccxt>=4.1.0
+      - requests-cache>=1.1.0
+      
+      # Network analysis
+      - networkx>=3.1
+      
+      # Testing
+      - pytest>=7.4.0
