@@ -8,11 +8,12 @@ Course reference: MIT Sloan Blockchain and Crypto Applications Online Short Cour
 
 ## Environment
 
-- **Conda env:** `blockchain-module1` (activate with `conda activate blockchain-module1`)
+- **Conda env:** `blockchain-module1` (activate with `mamba activate blockchain-module1`)
 - **Prefer mamba** over conda for all package/environment operations
 - **Python:** 3.11
 - **Environment file:** `environment.yml` at project root
 - **Notebooks run in:** JupyterLab
+- **Claude Skills** Make recommendations for project and general skills to add as identified, especially those that would significantly impact token usage.
 
 ## Project Structure
 
@@ -77,16 +78,16 @@ Cryptocurrency/
 | 01 | cryptographic-primitives.ipynb | Complete |
 | 02 | bitcoin-blockchain-analysis.ipynb | Complete |
 | 03 | ethereum-evm-analysis.ipynb | Complete |
-| 04 | smart-contract-development.ipynb | Not started |
-| 05 | defi-protocols.ipynb | Not started |
+| 04 | smart-contract-development.ipynb | Complete |
+| 05 | defi-protocols.ipynb | Complete |
 | 06 | market-analysis.ipynb | Complete |
 | 07 | mining-economics.ipynb | Complete |
-| 08 | valuation-models.ipynb | Not started |
+| 08 | valuation-models.ipynb | Complete |
 | 09 | privacy-forensics.ipynb | Complete |
 | 10 | cryptoeconomic-modeling.ipynb | Complete |
-| 11 | tokenomics.ipynb | Not started |
-| 12 | governance-simulation.ipynb | Not started |
-| 13 | stablecoin-analysis.ipynb | Not started |
-| 14 | consensus-simulations.ipynb | Not started |
-| 15 | multichain-analysis.ipynb | Not started |
-| 16 | energy-sustainability.ipynb | Not started |
+| 11 | tokenomics.ipynb | Complete |
+| 12 | governance-simulation.ipynb | Complete |
+| 13 | stablecoin-analysis.ipynb | Complete |
+| 14 | consensus-simulations.ipynb | Complete |
+| 15 | multichain-analysis.ipynb | Complete |
+| 16 | energy-sustainability.ipynb | Complete |
